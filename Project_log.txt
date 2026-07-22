@@ -1,0 +1,21 @@
+Public data license check (https://www.divvybikes.com/data-license-agreement)
+downloaded data sets (12 files, Excel CSV format)
+uploaded datasets to Google Cloud
+created dataset on Bigquery (Cyclistic)
+created tables for each month of tripdata
+joined all tables via union, excluded fake starts (end time before start time) and created master_tripdata table
+run audit queries on columns (check for ..audit in query name)
+run all clean query and create new master list (master_tripdata_clean)
+run summary statistics query on new master list
+run summary table for Day of the week usage for both types of users
+
+ran several queries to look for trends, including the following:
+	-Top 10 start stations by user type
+	-ToD commute spikes
+	-Roundtrips vs. One-way trips by user type
+	-Monthly trends
+	-Day of the week + Ride Length
+	-Bike type trends
+ran one combined query that checks Morning start/end station and evening start/end station (trying to confirm residential-business usage for casuals)
+opened query with Google DataSheets to created visuals
+

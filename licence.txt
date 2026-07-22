@@ -1,0 +1,4 @@
+This data was used under public license by "Bikeshare"
+
+The data licence agreement can be found here:
+https://divvybikes.com/data-license-agreement
